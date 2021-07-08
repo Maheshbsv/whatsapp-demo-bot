@@ -46,7 +46,8 @@ const whatsAppAdapter = new TwilioWhatsAppAdapter({
     {
         appId: process.env.MicrosoftAppId,
         appPassword: process.env.MicrosoftAppPassword
-    });
+    }
+);
 
 // Catch-all for errors.
 const onTurnErrorHandler = async (context, error) => {
